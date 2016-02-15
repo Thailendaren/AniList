@@ -1,0 +1,50 @@
+body{
+    
+}
+
+.header{
+    width: auto;
+    height: auto;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 0.5em;
+}
+
+.underTitle{
+    font-size: 0.75em;
+    color: #888;
+}
+
+.posterPic{
+    /*height: 480px;
+    width: 343px;*/
+    position: absolute;
+    margin: 0 1em 1em 1em;
+    border: 1px solid #999;
+    box-shadow: 4px 4px 10px #999;
+}
+
+.textBox{
+    position: relative;
+    left: 390px;
+    width: 800px;
+}
+
+.synopsisTitle{
+    font-weight: bold;
+    border-bottom: 1px solid #999;
+    padding: 2px;
+}
+
+.synopsisText{
+    margin-top: 1em;
+}
+
+#relatedAnime{
+    margin-top: 1.5em;
+    font-weight: bold;
+}
+
+img{
+    vertical-align: bottom;
+}

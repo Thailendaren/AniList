@@ -1,0 +1,67 @@
+*{
+    padding: 0;*/
+}
+
+body{
+    background-color: #FFC;
+}
+
+#sideMenu{
+    width: 25%;
+    font-weight: bold;
+    position: absolute;
+}
+
+#title{
+    margin: 1em;
+    font-size: 2em;
+}
+
+#animeList{
+    margin: 1em;
+    padding: 1em;
+    border: 1px #555 solid;
+    background-color: #FFF;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: #000;
+}
+
+#animeListTable{
+    
+}
+
+.animeListTableRow{
+    
+}
+
+.animeListTableCell{
+    padding: 2px 10px;
+    width: 100%;
+    border-bottom: 1px #555 solid;
+}
+
+.animeListTableCell:hover{
+    background-color: #DDD;
+}
+
+#container{
+    position: fixed;
+    left: 26%;
+    height: 98%;
+    width: 73%;
+    background-color: #FFF;
+   /*margin: 2em 25%;
+   /*margin: 0 auto;*/
+}
+
+#showcase{    
+    height: 100%;
+    width: 100%;
+}
+
+img{
+    vertical-align: text-bottom;
+}
