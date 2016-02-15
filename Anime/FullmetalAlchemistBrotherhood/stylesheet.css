@@ -1,5 +1,5 @@
 body{
-    
+    width: 98%;
 }
 
 .header{
@@ -11,6 +11,7 @@ body{
 }
 
 .underTitle{
+    width: auto;
     font-size: 0.75em;
     color: #888;
 }
@@ -24,25 +25,65 @@ body{
     box-shadow: 4px 4px 10px #999;
 }
 
+#otherInformation{
+    position: absolute;
+    width: 343px;
+    margin: 1em;
+    margin-top: 500px;
+    
+}
+
+#otherInformationTitle{
+    font-weight: bold;
+}
+
+.MakeBold{
+    font-weight: bold;
+}
+
 .textBox{
     position: relative;
     left: 390px;
-    width: 800px;
+    width: 65%;
 }
 
 .synopsisTitle{
+    width: auto;
     font-weight: bold;
     border-bottom: 1px solid #999;
     padding: 2px;
 }
 
 .synopsisText{
+    width: auto;
     margin-top: 1em;
 }
 
 #relatedAnime{
+    width: auto;
     margin-top: 1.5em;
     font-weight: bold;
+}
+
+.relatedAnimeLeftColumn{
+    text-align: right;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+tr{
+    border-bottom: 1px #555 solid;
+}
+
+td{
+    min-width: 150px;
+    /*border-bottom: 1px #555 solid;*/
+}
+
+#trailerBox{
+    margin: 2em 0;
 }
 
 img{
