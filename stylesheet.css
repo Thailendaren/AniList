@@ -3,7 +3,50 @@
 }
 
 body{
-    background-color: #FFC;
+    background-color: #27272B;
+}
+
+.button {
+    font-size: 1em;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+.popup {
+    margin: 70px auto;
+    width: 70%;
+    height: 70%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+.popup .close {
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+.popup .close:hover {
+    color: #fff;
 }
 
 #sideMenu{
@@ -20,8 +63,8 @@ body{
 #animeList{
     margin: 1em;
     padding: 1em;
-    border: 1px #555 solid;
-    background-color: #FFF;
+    border: 1px #232328 solid;
+    background-color: #3E3E46;
 }
 
 a:link, a:visited{
@@ -44,7 +87,7 @@ a:link, a:visited{
 }
 
 .animeListTableCell:hover{
-    background-color: #DDD;
+    background-color: #54545F;
 }
 
 #container{
@@ -60,6 +103,7 @@ a:link, a:visited{
 #showcase{    
     height: 100%;
     width: 100%;
+    border: none;
 }
 
 img{
