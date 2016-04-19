@@ -2,6 +2,10 @@ body{
     width: 98%;
 }
 
+hr{
+    margin-bottom: 1em;
+}
+
 .header{
     width: auto;
     height: auto;
@@ -30,7 +34,6 @@ body{
     width: 343px;
     margin: 1em;
     margin-top: 520px;
-    
 }
 
 #otherInformationTitle{
@@ -62,11 +65,40 @@ body{
 #relatedAnime{
     width: auto;
     margin-top: 1.5em;
+    margin-bottom: 1em;
     font-weight: bold;
 }
 
-.relatedAnimeLeftColumn{
-    text-align: right;
+.relatedAnimeList{
+    list-style: none;
+}
+
+.relatedAnimeList ul{
+    display: inline;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    border: 1px #555 solid;
+    transition: all 200ms;
+}
+
+.relatedAnimeList a:link, a:visited{
+    text-decoration: none;
+    color: #000;
+}
+
+.relatedAnimeList .current{
+    background-color: #555;
+    color: #DDD;
+}
+
+.relatedAnimeList .other{
+    transition: all 500ms;
+}
+
+.relatedAnimeList .other:hover{
+    background-color: #EEE;
 }
 
 table{

@@ -62,7 +62,8 @@ body{
 
 #title{
     margin: 1em;
-    font-size: 2em;
+    font-size: 3em;
+    color: #DDD;
 }
 
 #animeList{
@@ -70,6 +71,7 @@ body{
     padding: 1em;
     border: 1px #232328 solid;
     background-color: #3E3E46;
+    color: #000;
 }
 
 a:link, a:visited{
