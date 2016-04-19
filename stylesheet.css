@@ -63,7 +63,7 @@ body{
 #title{
     margin: 1em;
     font-size: 3em;
-    color: #DDD;
+    color: #EEE;
 }
 
 #animeList{
@@ -71,20 +71,16 @@ body{
     padding: 1em;
     border: 1px #232328 solid;
     background-color: #3E3E46;
-    color: #000;
+    color: #DDD;
 }
 
 a:link, a:visited{
     text-decoration: none;
-    color: #000;
+    color: #DDD;
 }
 
 #animeListTable{
     width: 100%;
-}
-
-.animeListTableRow{
-    
 }
 
 .animeListTableCell{

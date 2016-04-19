@@ -1,0 +1,19 @@
+
+#title{
+    display: inline;
+    font-size: 5em;
+    margin: 1em;
+}
+
+#cat{
+    display: inline;
+}
+
+#text{
+    font-size: 3em;
+    margin-left: 1em;
+}
+
+#arrow{
+    margin-left: 35%;
+}
