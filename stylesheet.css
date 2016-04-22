@@ -71,20 +71,14 @@ body{
     padding: 1em;
     border: 1px #232328 solid;
     background-color: #3E3E46;
-<<<<<<< HEAD
     color: #DDD;
-=======
     color: #CCC;
->>>>>>> origin/master
 }
 
 a:link, a:visited{
     text-decoration: none;
-<<<<<<< HEAD
     color: #DDD;
-=======
     color: #CCC;
->>>>>>> origin/master
 }
 
 #animeListTable{
