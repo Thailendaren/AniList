@@ -21,19 +21,18 @@ hr{
 }
 
 .posterPic{
-    /*height: 480px;
-    width: 343px;*/
     position: absolute;
     margin: 0 1em 1em 1em;
-    border: 1px solid #999;
-    box-shadow: 4px 4px 10px #555;
+}
+
+.posterPicPicture{
+    box-shadow: 4px 4px 10px #555
 }
 
 #otherInformation{
-    position: absolute;
+    position: relative;
     width: 343px;
-    margin: 1em;
-    margin-top: 520px;
+    margin-top: 1em;
 }
 
 #otherInformationTitle{
@@ -47,7 +46,7 @@ hr{
 .textBox{
     position: relative;
     left: 390px;
-    width: 65%;
+    width: 55%;
 }
 
 .synopsisTitle{
