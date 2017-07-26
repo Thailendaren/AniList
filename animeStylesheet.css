@@ -11,6 +11,7 @@ hr{
     height: auto;
     font-weight: bold;
     font-size: 1.5em;
+    font-family: DinPRO;
     margin: 0.5em;
 }
 
@@ -32,6 +33,7 @@ hr{
 #otherInformation{
     position: relative;
     width: 343px;
+    font-family: DinPRO;
     margin-top: 1em;
 }
 
@@ -47,6 +49,7 @@ hr{
     position: relative;
     left: 390px;
     width: 55%;
+    font-family: DinPRO;
 }
 
 .synopsisTitle{
